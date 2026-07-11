@@ -107,6 +107,21 @@
     border: 1px solid black;
     color: black;
 }
+/* sponsor */
+.sponsor-parent{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+.sponsor-parent li{
+    list-style: none;
+}
+.sponsor-child a img{
+    height: 100px;
+    width: 100px;
+    margin-top: 40px;
+}
+
 /* footer  */
 footer{
     background-color: #0D1B2A;
