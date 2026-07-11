@@ -55,5 +55,9 @@
 .meet-div-parent{
     display: grid;
     grid-template-columns: repeat(2, 2fr);
-    
+    gap: 20px;
+}
+.meet-div-child{
+    border: 1px solid #575757;
+    border-radius: 10px;
 }
