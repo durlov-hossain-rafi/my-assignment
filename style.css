@@ -41,7 +41,7 @@
     background-size: cover;
     background-position: center;
 }
-.main-banner h1,p{
+.main-banner h1,.banner-p{
     color: white;
 }
 .main-banner h1{
@@ -49,3 +49,11 @@
 }
 
 /* meet  */
+.meet-section{
+    margin-top: 70px;
+}
+.meet-div-parent{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    
+}
