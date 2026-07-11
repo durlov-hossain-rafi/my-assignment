@@ -61,3 +61,44 @@
     border: 1px solid #575757;
     border-radius: 10px;
 }
+.meet-div-child img{
+    border-radius: 10px;
+}
+/* cark section  */
+.card-section{
+    text-align: center;
+}
+.card-parent-div{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.card-child-div{
+    border: 2px solid #575757;
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 20px;
+}
+#pro{
+    background: #0D1B2A;
+    color: white;
+    z-index: 1;
+    transform: scale(1.1);
+}
+.card-button{
+    padding: 10px 70px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#g-s{
+    border: 1px solid blue;
+    color: blue;
+}
+#g-p{
+    background-color: #4d8ddb;
+    color: white;
+}
+#c-u{
+    border: 1px solid black;
+    color: black;
+}
