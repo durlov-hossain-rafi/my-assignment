@@ -1,0 +1,51 @@
+.position{
+    max-width: 1300px;
+    margin: auto;
+    text-align: center;
+}
+/* navigation bar  */
+.parent-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-div-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav-div-nav{
+    display: flex;
+    gap: 30px;
+    
+}
+.nav-div-nav a{
+    text-decoration: none;
+    color: #575757;
+}
+.c-button{
+    background-color: #1d4ed8;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+/* banner  */
+.main-banner{
+    margin-top: 0px;
+    text-align: center;
+    height: 750px;
+    background-image: url("./assets/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.main-banner h1,p{
+    color: white;
+}
+.main-banner h1{
+    padding-top: 120px;
+}
+
+/* meet  */
