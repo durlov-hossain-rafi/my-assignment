@@ -1,3 +1,6 @@
+*{
+    margin: 0px;
+}
 .position{
     max-width: 1300px;
     margin: auto;
@@ -64,9 +67,11 @@
 .meet-div-child img{
     border-radius: 10px;
 }
-/* cark section  */
+/* card section  */
 .card-section{
     text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .card-parent-div{
     display: flex;
@@ -101,4 +106,26 @@
 #c-u{
     border: 1px solid black;
     color: black;
+}
+/* footer  */
+footer{
+    background-color: #0D1B2A;
+}
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    margin-top: 40px;
+}
+.footer-section a{
+    text-decoration: none;
+}
+.f-social{
+    display: flex;
+    gap: 50px;
+}
+.f-social a img{
+    height: 30px;
+    width: 30px;
 }
